@@ -139,6 +139,8 @@ The Entity class has two inheritable methods using abstracts. The AttemptMove me
 An delegate HUDUpdate() is used in the Player class to display information relating to the player stats as a string. Since the string contents change based on what is happening in the game, using lambda expression allows each version of the update being contained in other methods to be local and reflect the particular situation. This allows the HUD text to update the player about how many hearts the have lost or gained.
 A lambda expression is used to remove null weapon slots from the equipment list before it is displayed to the HUD.
 
+---
+  
 ## REFERENCES
 
-[^1] 	R. C. Martin, “The Single Responsibility Principle,” 08 05 2014. [Online]. Available: https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html. [Accessed 29 09 2020].
+[^1]: 	R. C. Martin, “The Single Responsibility Principle,” 08 05 2014. [Online]. Available: https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html. [Accessed 29 09 2020].
