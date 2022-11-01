@@ -1,5 +1,8 @@
-# Game
- A simple game developed for object oriented development
+# Rogue-like game demonstrating principles of object oriented development
+
+A simple game developed for object oriented development as the final project.
+
+<img src="./gameplay.png" width="600px">
 
 [Demonstration video](https://youtu.be/apd_sgU-gng)
 
@@ -80,7 +83,7 @@ Playing the game: Walls (Primary)
 ## CLASS DIAGRAM AND JUSTIFICATION
 Please see the figure below for the conceptual diagram and [here](./UMLspecifications.pdf) fr the specification-level class diagram. Details on each method can be found in the comments from the C# scripts.
 
-<img src=".uml.png">
+<img src="./uml.png" width="800px">
 
 * Game: This manages the entire game system, deploying the other classes in order to create the game play experience.
 
