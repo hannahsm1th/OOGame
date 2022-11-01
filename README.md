@@ -141,6 +141,6 @@ A lambda expression is used to remove null weapon slots from the equipment list 
 
 ---
   
-## REFERENCES
+### REFERENCES
 
 [^1]: 	R. C. Martin, “The Single Responsibility Principle,” 08 05 2014. [Online]. Available: https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html. [Accessed 29 09 2020].
