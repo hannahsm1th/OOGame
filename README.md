@@ -119,7 +119,7 @@ The following principles of coding design were addressed:
 
 ### Single Responsibility Principle
 
-This principle was created by Robert Martin, who on his blog described this as “Gather together the things that change for the same reasons. Separate those things that change for different reasons” [1]. In this program, all but the Game class operate on this principal. For example, the HUDSystem, although it interacts with both the Equipment and Player classes, only changes in response to the single reason of a player picking up an item and changing their stats. Although within the Player and Equipment classes there can be different ways for the stats to change the HUDSystem only needs to know that there was a change, not the reason for the change. The methods in the HUDSystem reflect the different ways the player’s stats can change. Similarly, the Player only changes for the reason that its boxCollider encountered another boxCollider. It then determines the appropriate behaviour based on what it encountered. This is made possible by storing most of the player’s persistent information in the Game class.
+This principle was created by Robert Martin, who on his blog described this as “Gather together the things that change for the same reasons. Separate those things that change for different reasons” [^1]. In this program, all but the Game class operate on this principal. For example, the HUDSystem, although it interacts with both the Equipment and Player classes, only changes in response to the single reason of a player picking up an item and changing their stats. Although within the Player and Equipment classes there can be different ways for the stats to change the HUDSystem only needs to know that there was a change, not the reason for the change. The methods in the HUDSystem reflect the different ways the player’s stats can change. Similarly, the Player only changes for the reason that its boxCollider encountered another boxCollider. It then determines the appropriate behaviour based on what it encountered. This is made possible by storing most of the player’s persistent information in the Game class.
 
 ### Singleton Design Pattern
 
@@ -141,4 +141,4 @@ A lambda expression is used to remove null weapon slots from the equipment list 
 
 ## REFERENCES
 
-[1] 	R. C. Martin, “The Single Responsibility Principle,” 08 05 2014. [Online]. Available: https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html. [Accessed 29 09 2020].
+[^1] 	R. C. Martin, “The Single Responsibility Principle,” 08 05 2014. [Online]. Available: https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html. [Accessed 29 09 2020].
